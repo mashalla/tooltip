@@ -1,0 +1,11 @@
+name: Accessible Tooltip
+author: mashalla
+category: Widgets
+tags: [dialog, tooltip, modal, window, alert, confirm]
+#docs: http://ascribedata.com/moo/dialog/
+demo: http://mashalla.github.com/tooltip
+current: 1.0
+
+sources:
+  - "Source/tooltip.js"
+  - "Source/demo.js"
