@@ -1,29 +1,21 @@
-// --- extended ----------- Start Edit --------------------------------
-//
-// last edit: 2011 - 02 - 16
-//
-// author: Christian Merz
-//
-// all changes are necessary for accessibility (except the show_Demo function)
-//
-// all changes are marked with the keyword 'extended' like this header
-// and a short description
-//
-// --- extended ----------- Start Edit --------------------------------
-
 /*
- ---
- description: displays "popup" that can be modal and/or have arrows with easy placement targeting the window or an element
- license: MIT-style
- authors:
- - Truman Leung
- requires:
- - core/1.3: '*'
- - more/1.2.4: Fx.Elements
- provides: Ascribe Dialog
- version: 0.3
- ...
- */
+---
+description: accessible tooltip based on ascribe dialog
+ 
+license: MIT-style
+ 
+authors:
+- Christian Merz
+ 
+requires:
+- core/1.3: '*'
+- more/1.2.4: Fx.Elements
+ 
+provides: accessible tooltip
+
+version: 1.0
+...
+*/
 var AscDialog = new Class({
     Implements: [Options, Events],
     
