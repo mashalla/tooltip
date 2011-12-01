@@ -1,21 +1,21 @@
 /*
- ---
- description: accessible tooltip based on ascribe dialog
+---
+description: accessible tooltip based on ascribe dialog
 
- license: MIT-style
+license: MIT-style
 
- authors:
- - Christian Merz
+authors:
+- Christian Merz
 
- requires:
- - core/1.3: '*'
- - more/1.2.4: Fx.Elements
+requires:
+- core/1.3: '*'
+- more/1.2.4: Fx.Elements
 
- provides: accessible tooltip
+provides: accessible tooltip
 
- version: 1.0
- ...
- */
+version: 1.0
+...
+*/
 var AscDialog = new Class({
 	Implements : [Options, Events],
 
