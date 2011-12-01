@@ -5,7 +5,7 @@ This class provides accessible tooltip with various effects and possibilites.
 
 Widget based on <a href="http://mootools.net/forge/p/ascribe_dialog">Ascribe Dialog</a>
 
-![Screenshot](http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/img/Tooltip.png)
+![Screenshot](http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/WidgetThumbs/Tree.png)
 
 How to use
 ----------
