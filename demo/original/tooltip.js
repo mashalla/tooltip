@@ -1,15 +1,21 @@
-// -------------------------------------------------------------------
-//
-// last edit: 2011 - 02 - 18
-//
-// author: Christian Merz
-//
-// instantiation of different dialogs
-//
-// --------------------------------------------------------------------
+/*
+ ---
+ description: accessible tooltip based on ascribe dialog
 
+ license: MIT-style
 
+ authors:
+ - Christian Merz
 
+ requires:
+ - core/1.3: '*'
+ - more/1.2.4: Fx.Elements
+
+ provides: accessible tooltip
+
+ version: 1.0
+ ...
+ */
 window.addEvent('domready', function(){
 
 var tooltip1 = new AscTip($('tooltipDemo1'), 'This input field has no functionality');
